@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/background"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/amelie2"
+        android:translationX="-25dp"
+        android:translationY="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:fontFamily="@font/arvo"
+        android:text="Code Your Own World.."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+
+        android:translationY="-5dp">
+
+    </TextView>
+
+
+
+</LinearLayout>
